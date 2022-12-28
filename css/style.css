@@ -76,6 +76,7 @@
     }
     .content {
       display: block;
+      padding: 0 15px 0 15px;
     }
     .content .div{
         width: 100%;
