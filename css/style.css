@@ -70,13 +70,37 @@
     font-weight: bold;
 }
 
+
+
+footer{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
+footer div{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 700px) {
     .header{
         padding: 15px;
     }
     .content {
       display: block;
-      padding: 0 15px 0 15px;
     }
     .content .div{
         width: 100%;
