@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+    --color-Olive: #808000;
+    --color-Maroon: #800000;
+    --color-Orange: #FFA500;
+    --main-color: #0075ff;
+    --p-color: #4f4f4f;
+    --background-color:rgba(0, 0, 0, 0);
+    --margin-size:20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.header img ,.header h1{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.header img{
+    width:150px;
+    border-radius: 50%;
+}
+.header h1{
+    margin-left: 15px;
+    color: var(--main-color);
+}
+.header h1 .a{
+    color: var(--color-Orange);
+}
+.header h1 .b{
+    color: var(--color-Maroon);
+}
+.header h1 .c{
+    color: var(--main-Orange);
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.content .div{
+    width: 33%;
+    margin: var(--margin-size);
+    
+}
+.content .div h2{
+    color: var(--main-color);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.content .div p{
+    color: var(--p-color);
+    
+}
+.content .div p a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--p-color);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    body{
+        background-color: lightblue;
+        padding: 15px;
+    }
+    .content {
+      display: block;
+    }
+    .content .div{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+  }
