@@ -69,8 +69,9 @@
     margin-top: 15px;
     font-weight: bold;
 }
+
 @media only screen and (max-width: 700px) {
-    body{
+    .header{
         padding: 15px;
     }
     .content {
